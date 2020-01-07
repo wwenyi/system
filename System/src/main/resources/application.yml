@@ -1,0 +1,16 @@
+#访问的端口号
+server:
+  port: 5500
+# 配置sigar相关的文件存放位置,如果存放在项目根目录下，则配置system，注意：如配置自定义路径需配置到lib层目录
+# 例如：c:\java\hyperic-sigar-1.6.4\sigar-bin\lib
+sigar:
+  path: system
+#内存单位转换的进制
+bin:
+  conversion: 1024
+ 
+file:
+#配置日志输出的文件路径 
+  logpath: null
+ #配置文件上传的文件路径
+  filepath: null
